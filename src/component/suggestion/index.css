@@ -41,8 +41,6 @@ ul li {
 
 .alert {
   padding: 20px;
-  background-color: #f44336;
-  color: white;
   margin-bottom: 15px;
 }
 
@@ -65,12 +63,17 @@ ul li {
   text-align: center;
 }
 
-.jacket {
+.jacket, .alert-info {
   background: #f8f9fa;
   color: #343a40;
 }
 
 .umbrella {
   background: #007bff;
+  color: #f5f5f5;
+}
+
+.alert-error {
+  background-color: #dc3545;
   color: #f5f5f5;
 }

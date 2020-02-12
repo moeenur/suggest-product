@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import Weather from './component/weather/weather'
+import Suggestion from './component/suggestion';
 
 class App extends Component {
   render() {
-    return <Weather />;
+    return <Suggestion/>;
   }
 }
 
